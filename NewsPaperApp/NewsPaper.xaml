@@ -1,0 +1,14 @@
+﻿<UserControl x:Name="usercontrol_newspaper" x:Class="NewsPaperApp.NewsPaperUC"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:NewsPaperApp"
+             mc:Ignorable="d" Height="140" Width="743" FontFamily="Calisto MT" FontSize="18" FontStyle="Normal" FontStretch="Normal" FontWeight="SemiBold">
+    <Grid x:Name="grid_newspaper" Cursor="Hand" Margin="0,0,0,0">
+        <Label x:Name="lbl_newpaperName" Content="Label" Margin="86,21,85,0" VerticalAlignment="Top" Foreground="{DynamicResource {x:Static SystemColors.ControlLightLightBrushKey}}" HorizontalContentAlignment="Center"/>
+        <Label x:Name="lbl_publishingHouse" Content="Label" HorizontalAlignment="Left" Margin="56,63,0,0" VerticalAlignment="Top" Width="192" Foreground="{DynamicResource {x:Static SystemColors.ControlLightLightBrushKey}}" RenderTransformOrigin="0.0,0.0"/>
+        <Label x:Name="lbl_publishingDate" Content="Label" Margin="0,63,45,0" VerticalAlignment="Top" Foreground="{DynamicResource {x:Static SystemColors.ControlLightLightBrushKey}}" HorizontalContentAlignment="Right" HorizontalAlignment="Right" Width="190"/>
+        <Label x:Name="lbl_rating" Content="Label" HorizontalAlignment="Left" Margin="56,99,0,0" VerticalAlignment="Top" Width="192" Foreground="{DynamicResource {x:Static SystemColors.ControlLightLightBrushKey}}" RenderTransformOrigin="0.0,0.0"/>
+    </Grid>
+</UserControl>
